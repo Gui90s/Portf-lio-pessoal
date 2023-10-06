@@ -1,0 +1,125 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #26a69a; /* Cor de fundo verde-água */
+    color: #fff;
+    padding: 10px 20px; /* Adicionando margem interna ao cabeçalho */
+    text-align: center; /* Alinhando o texto à esquerda */
+    position: relative; /* Adicionando posição relativa para posicionamento da foto */
+}
+
+/* Estilo da foto pessoal */
+.profile-photo {
+    width: 185px; /* Define a largura da foto */
+    height: auto; /* Mantém a proporção da imagem */
+    position: absolute; /* Define a posição absoluta para que possamos posicionar a foto no canto esquerdo */
+    top: 10px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda, ajustada para evitar sobreposição ao texto */
+    border-radius: 50%; /* Arredonda a foto para um formato de círculo */
+    border: 2px solid #fff; /* Adiciona uma borda branca à foto */
+}
+
+/* Estilo para os links no cabeçalho */
+nav a {
+    color: #fff; /* Cor dos links em branco */
+    text-decoration: none;
+    margin-right: 10px; /* Adiciona margem à direita dos links */
+}
+
+/* Estilo para os links no conteúdo */
+section a {
+    color: #26a69a; /* Cor dos links em verde-água */
+}
+
+/* Estilo para as seções */
+section {
+    background-color: #fff; /* Cor de fundo branca */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #26a69a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilo para os títulos das seções */
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Cor dos títulos das seções */
+}
+
+/* Estilo para o formulário de contato */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilo para os campos de entrada do formulário */
+form label,
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Estilo para o botão de envio do formulário */
+form input[type="submit"] {
+    background-color: #26a69a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilo para os itens da lista do portfólio */
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para a borda das imagens no portfólio */
+img.portfolio-image {
+    border: 2px solid #26a69a;
+    border-radius: 5px;
+}
+
+/* Estilo para links quando hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o cabeçalho quando rolar a página */
+header.scroll {
+    background-color: rgba(38, 166, 154, 0.9); /* Cor de fundo com opacidade */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Estilo para o texto no cabeçalho quando rolar a página */
+header.scroll h1, header.scroll nav a {
+    color: #fff; /* Cor do texto no cabeçalho quando rolar a página */
+}
+
+/* Estilo para a mensagem de confirmação */
+#confirmation-message {
+    display: none;
+    color: #26a69a; /* Cor de verde-água para a mensagem de confirmação */
+    margin-top: 10px;
+}
+
