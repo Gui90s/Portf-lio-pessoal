@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portfólio Pessoal</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Guilherme Candido Santos</h1>
+         <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Adicionando sua foto pessoal dentro do cabeçalho -->
+        <img src="me.jpg" alt="Minha Foto Pessoal" class="profile-photo">
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Meu nome é Guilherme Candido Santos sou apaixonado pela minha família, pela natureza e pelos animais.</p>
+        <p>Meus hobbies são esporte, livros e filmes.</p>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação e Idiomas</h2>
+        <p>Eu me formei em Engenharia Elétrica pelo INATEL.</p>
+        <p>Além disso, sou fluente em inglês.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="project">
+            <h3>App Exploração Global</h3>
+            <p>Protótipos de baixa e média fidelidade.</p>
+            <a href="Caderno de Resposta - Fundamentos (1).pdf" target="_blank">Ver PDF</a>
+        </div>
+        <div class="project">
+            <h3>Mentoria Tech para a Terceira Idade: Conectando Gerações</h3>
+            <p>Projeto de promoção a inclusão digital e social de idosos.</p>
+            <a href="Atividades Extensionistas - Trabalho Final.pdf" target="_blank">Ver PDF</a>
+        </div>
+        <div class="project">
+            <h3>Análise e Modelagem de Sistemas</h3>
+            <p>Coleta de requisitos, criação de diagrama de caso de uso e criação de diagrama de classes.</p>
+            <a href="TrabFinal Analise de Sistemas.pdf" target="_blank">Ver PDF</a>
+        </div>
+    </section>
+    
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contact-form" action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+    
+            <input type="submit" value="Enviar">
+        </form>
+        <div id="confirmation-message"></div> <!-- Elemento para a mensagem de confirmação -->
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Guilherme Candido Santos</p>
+    </footer>
+</body>
+</html>
