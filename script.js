@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
     contactForm.addEventListener("submit", function(event) {
         event.preventDefault(); // Impede o envio do formulário padrão
 
-        // Você pode adicionar aqui o código para processar o envio do formulário
-        // Por enquanto, apenas exibimos a mensagem de confirmação
+        
+        // Mensagem de confirmação
         confirmationMessage.textContent = "Mensagem enviada com sucesso!";
         confirmationMessage.style.display = "block";
 
